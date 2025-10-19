@@ -208,7 +208,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         <p>Comprehensive ERP platform integrating HR, CRM, and Finance modules with AI-driven insights and automation.</p>
         <div>
           <img src="https://img.shields.io/badge/Next.js-Frontend-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-          <img src="https://img.shields.io/badge/Next.js-Backend-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Next.js-Backend-3DDC84?style=flat-square&logo=nextdotjs" alt="Next.js" />
           <img src="https://img.shields.io/badge/ERP-Business%20Suite-4ECDC4?style=flat-square&logo=building" alt="ERP" />
         </div>
       </div>
