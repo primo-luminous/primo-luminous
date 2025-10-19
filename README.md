@@ -108,16 +108,6 @@ choose **Run workflow**. Provide a JSON array in the new `repositories` field to
 sync multiple projects at once – including repositories that belong to other
 GitHub accounts or organisations.
 
-```json
-[
-  { "name": "scm-project", "owner": "gendevgroup" },
-  { "name": "beauty-skin", "owner": "gendevgroup" },
-  { "name": "erms-app", "owner": "gendevgroup" },
-  { "name": "go-innovation", "owner": "gendevgroup" },
-  { "name": "wiseattitude", "owner": "gendevgroup" }
-]
-```
-
 Each object accepts optional `version`, `updated_at`, and `url` overrides if you
 need to publish custom metadata.
 
