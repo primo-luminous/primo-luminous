@@ -1,0 +1,45 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 22 * * *"  # รันทุกวัน 22:00 UTC = 05:00 Asia/Bangkok
+  workflow_dispatch:
+
+permissions:
+  contents: write  # ให้สิทธิ์แก้ไขไฟล์ใน repo
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies (optional)
+        if: hashFiles('scripts/requirements.txt') != ''
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate README content
+        run: python scripts/update_readme.py
+
+      - name: Commit & Push if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update README ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git pull --rebase
+            git push
+          else
+            echo "No changes to commit."
+          fi
