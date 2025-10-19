@@ -69,7 +69,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
 
 <table align="center">
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="30%">
       <div style="border: 2px solid #00D4FF; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); margin: 10px;">
         <h3>🏗️ Architecture & Design</h3>
         <div style="text-align: center;">
@@ -85,7 +85,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         </div>
       </div>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="30%">
       <div style="border: 2px solid #FF6B6B; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #2e1a1a 100%); margin: 10px;">
         <h3>🤖 Automation & AI</h3>
         <div style="text-align: center;">
@@ -101,7 +101,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         </div>
       </div>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="30%">
       <div style="border: 2px solid #4ECDC4; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #1a2e1a 100%); margin: 10px;">
         <h3>💻 Full-Stack Development</h3>
         <div style="text-align: center;">
