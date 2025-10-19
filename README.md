@@ -59,9 +59,9 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
 
 <div align="center">
   <p>
-    <img src="https://img.shields.io/badge/🏗️-Architecture%20%26%20Design-00D4FF?style=for-the-badge&logo=architecture" alt="Architecture" />
-    <img src="https://img.shields.io/badge/🤖-Automation%20%26%20AI-FF6B6B?style=for-the-badge&logo=robot" alt="Automation" />
-    <img src="https://img.shields.io/badge/💻-Full-Stack%20Development-4ECDC4?style=for-the-badge&logo=code" alt="Full-Stack" />
+    <img src="https://img.shields.io/badge/Architecture%20%26%20Design-%20-00D4FF?style=for-the-badge" alt="Architecture" />
+    <img src="https://img.shields.io/badge/Automation%20%26%20AI-%20-FF6B6B?style=for-the-badge" alt="Automation" />
+    <img src="https://img.shields.io/badge/Full--Stack%20Development-%20-4ECDC4?style=for-the-badge" alt="Full-Stack" />
   </p>
 </div>
 
