@@ -78,7 +78,7 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 <p align="center">
   <a href="https://github.com/primo-luminous"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" /></a>
   <a href="mailto:primo.luminous@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/primo.luminous/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/primo-luminous/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" /></a>
   <a href="https://www.youtube.com/primo.luminous"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white" /></a>
 </p>
 
