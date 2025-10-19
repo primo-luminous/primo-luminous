@@ -106,10 +106,10 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         <h3>💻 Full-Stack Development</h3>
         <div style="text-align: center;">
           <p>
-            <img src="https://img.shields.io/badge/Next.js%20%26%20Laravel-Frontend%20%26%20Backend-00D4FF?style=flat-square&logo=code" alt="Next.js & Laravel" />
+            <img src="https://img.shields.io/badge/Next.js-React%20Framework-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
           </p>
           <p>
-            <img src="https://img.shields.io/badge/Prisma%20%26%20PostgreSQL-Database%20Stack-4ECDC4?style=flat-square&logo=database" alt="Database Stack" />
+            <img src="https://img.shields.io/badge/Laravel-PHP%20Framework-FF2D20?style=flat-square&logo=laravel" alt="Laravel" />
           </p>
           <p>
             <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker" alt="Docker" />
