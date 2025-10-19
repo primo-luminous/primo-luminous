@@ -85,7 +85,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         </div>
       </div>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%"></td>
       <div style="border: 2px solid #FF6B6B; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #2e1a1a 100%); margin: 10px;">
         <h3>🤖 Automation & AI</h3>
         <div style="text-align: center;">
@@ -131,7 +131,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
 <div align="center">
   <h3>💼 Featured Projects</h3>
   <p>
-    <img src="https://img.shields.io/badge/📱-IMF%20Project-00D4FF?style=for-the-badge&logo=mobile" alt="IMF Project" />
+    <img src="https://img.shields.io/badge/📱-IMF%20Project%20(Image%20Flip)-00D4FF?style=for-the-badge&logo=mobile" alt="IMF Project" />
     <img src="https://img.shields.io/badge/💹-KP%20PriceHub-FF6B6B?style=for-the-badge&logo=chart" alt="KP PriceHub" />
     <img src="https://img.shields.io/badge/🧠-WiseAttitude%20ERP-4ECDC4?style=for-the-badge&logo=brain" alt="WiseAttitude ERP" />
   </p>
@@ -161,22 +161,22 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
   <tr>
     <td align="center" width="33%">
       <div style="border: 2px solid #00D4FF; border-radius: 15px; padding: 15px; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);">
-        <a href="https://github.com/primo-luminous/imf-project">
+      <a href="https://github.com/primo-luminous/imf-project">
           <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif" width="100%" alt="IMF Project" style="border-radius: 10px;">
         </a>
         <br><br>
         <h3>📱 IMF Project</h3>
-        <p><strong>Android Finance Management</strong></p>
-        <p>Modern UI with smooth animations, image flip effects, and intuitive user experience for personal finance tracking.</p>
+        <p><strong>Image Flip Mobile App</strong></p>
+        <p>Modern UI with smooth animations, image flip effects, and intuitive user experience for image viewing and interaction.</p>
         <div>
           <img src="https://img.shields.io/badge/Android-Mobile%20App-3DDC84?style=flat-square&logo=android" alt="Android" />
-          <img src="https://img.shields.io/badge/Finance-KPI%20Tracking-00D4FF?style=flat-square&logo=chart" alt="Finance" />
+          <img src="https://img.shields.io/badge/Image%20Flip-Interactive%20UI-00D4FF?style=flat-square&logo=image" alt="Image Flip" />
         </div>
       </div>
     </td>
     <td align="center" width="33%">
       <div style="border: 2px solid #FF6B6B; border-radius: 15px; padding: 15px; background: linear-gradient(135deg, #0a0a0a 0%, #2e1a1a 100%);">
-        <a href="https://github.com/primo-luminous/kp-pricehub">
+      <a href="https://github.com/primo-luminous/kp-pricehub">
           <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/kp-price-hub.gif" width="100%" alt="KP PriceHub" style="border-radius: 10px;">
         </a>
         <br><br>
@@ -191,7 +191,7 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
     </td>
     <td align="center" width="33%">
       <div style="border: 2px solid #4ECDC4; border-radius: 15px; padding: 15px; background: linear-gradient(135deg, #0a0a0a 0%, #1a2e1a 100%);">
-        <a href="https://github.com/primo-luminous/wiseattitude-erp">
+      <a href="https://github.com/primo-luminous/wiseattitude-erp">
           <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/erp-wiseattitude.gif" width="100%" alt="WiseAttitude ERP" style="border-radius: 10px;">
         </a>
         <br><br>
