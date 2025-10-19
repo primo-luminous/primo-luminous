@@ -91,6 +91,7 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 <!-- PROJECT_UPDATES:START -->
 | Project | Version | Updated |
 | --- | --- | --- |
+| [erms-app](https://github.com/gendevgroup/erms-app) | unreleased | 2025-10-19 08:18 UTC |
 | [go-innovation](https://github.com/gendevgroup/go-innovation) | unreleased | 2025-10-19 08:17 UTC |
 | [wiseattitude](https://github.com/gendevgroup/wiseattitude) | unreleased | 2025-10-19 03:27 UTC |
 | [erp-react-laravel](https://github.com/primo-luminous/erp-react-laravel) | v1.2.0 | 2025-10-17 15:12 UTC |
