@@ -17,24 +17,11 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 
 ### 🧠 Core Competencies
 <!-- CORE_COMPETENCIES:START -->
-- 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices
-- 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines
-- 💻 **Full-Stack Development:** Next.js • Prisma • PostgreSQL • Laravel • Docker
-- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization
+- 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices  
+- 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines  
+- 💻 **Full-Stack Development:** Next.js • Prisma • PostgreSQL • Laravel • Docker • HTML • CSS • JavaScript • PHP  
+- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization  
 <!-- CORE_COMPETENCIES:END -->
-
----
-
-## 🗂️ Repository Development Progress
-
-This repository has been evolving to better showcase ongoing work and highlight the systems I build. Recent updates include:
-
-- **Refined personal introduction** that clearly communicates my role in AI-driven ERP development and automation initiatives.
-- **Expanded competency and tech stack sections** to outline the frameworks, tools, and platforms I use across full-stack projects.
-- **Curated featured project gallery** with GitHub stat cards that surface the breadth of my ERP, automation, and AI solutions.
-- **Automated “Latest Repository Updates” feed** powered by GitHub Actions to keep release timelines and activity transparent.
-
-These improvements make it easier for collaborators and clients to understand what has been developed so far and where the roadmap is heading.
 
 ---
 
@@ -42,6 +29,10 @@ These improvements make it easier for collaborators and clients to understand wh
 
 <!-- TECH_STACK:START -->
 #### 💻 Languages & Frameworks
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white)
@@ -66,14 +57,14 @@ These improvements make it easier for collaborators and clients to understand wh
 
 <table align="center">
   <tr>
+    <td><a href="https://github.com/primo-luminous/imf-project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=imf-project&theme=tokyonight" /></a></td>
     <td><a href="https://github.com/primo-luminous/wiseattitude-erp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=wiseattitude-erp&theme=tokyonight" /></a></td>
     <td><a href="https://github.com/primo-luminous/erp-react-laravel"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=erp-react-laravel&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/rentgo-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=rentgo-app&theme=tokyonight" /></a></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/primo-luminous/rentgo-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=rentgo-app&theme=tokyonight" /></a></td>
     <td><a href="https://github.com/primo-luminous/podcast-creator-ai"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=podcast-creator-ai&theme=tokyonight" /></a></td>
     <td><a href="https://github.com/primo-luminous/dashboard-automation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=dashboard-automation&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/primo-luminous"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=primo-luminous&theme=tokyonight" /></a></td>
   </tr>
 </table>
 
@@ -101,40 +92,10 @@ These improvements make it easier for collaborators and clients to understand wh
 
 ---
 
-## 🆕 Latest Repository Updates
-
-> _This section is automatically updated via GitHub Actions._
-
-### Adding repositories from other owners
-
-Use the **Update README with repository changes** workflow (under `Actions`) and
-choose **Run workflow**. Provide a JSON array in the new `repositories` field to
-sync multiple projects at once – including repositories that belong to other
-GitHub accounts or organisations.
-
-Each object accepts optional `version`, `updated_at`, and `url` overrides if you
-need to publish custom metadata.
-
-<!-- PROJECT_UPDATES:START -->
-| Project | Version | Updated |
-| --- | --- | --- |
-| [imf-project](https://github.com/primo-luminous/imf-project) | v1.0.2 | 2025-10-19 11:13 UTC |
-| [scm-project](https://github.com/gendevgroup/scm-project) | unreleased | 2025-10-19 08:20 UTC |
-| [beauty-skin](https://github.com/gendevgroup/beauty-skin) | unreleased | 2025-10-19 08:19 UTC |
-| [erms-app](https://github.com/gendevgroup/erms-app) | unreleased | 2025-10-19 08:18 UTC |
-| [go-innovation](https://github.com/gendevgroup/go-innovation) | unreleased | 2025-10-19 08:17 UTC |
-| [wiseattitude](https://github.com/gendevgroup/wiseattitude) | unreleased | 2025-10-19 03:27 UTC |
-| [erp-react-laravel](https://github.com/primo-luminous/erp-react-laravel) | v1.2.0 | 2025-10-17 15:12 UTC |
-| [kp-pricehub](https://github.com/primo-luminous/kp-pricehub) | unreleased | 2025-10-19 03:13 UTC |
-<!-- PROJECT_UPDATES:END -->
-
----
-
 <p align="center">
   <i>“Innovation happens when creativity meets execution.”</i>
 </p>
 
 ---
-
 
 ⭐️ _Crafted with passion by [Mongkol Chaiwat](https://github.com/primo-luminous)_
