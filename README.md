@@ -72,39 +72,55 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
     <td align="center" width="33%">
       <div style="border: 2px solid #00D4FF; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); margin: 10px;">
         <h3>🏗️ Architecture & Design</h3>
-        <p>
-          <img src="https://img.shields.io/badge/Modular%20Systems-ERP%2FCRM%2FHR-00D4FF?style=flat-square&logo=architecture" alt="Modular Systems" />
-          <br><br>
-          <img src="https://img.shields.io/badge/Microservices-Scalable%20Design-FF6B6B?style=flat-square&logo=server" alt="Microservices" />
-          <br><br>
-          <img src="https://img.shields.io/badge/System%20Integration-Seamless%20Connectivity-4ECDC4?style=flat-square&logo=network" alt="System Integration" />
-        </p>
+        <div style="text-align: center;">
+          <p>
+            <img src="https://img.shields.io/badge/Modular%20Systems-ERP%2FCRM%2FHR-00D4FF?style=flat-square&logo=architecture" alt="Modular Systems" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Microservices-Scalable%20Design-FF6B6B?style=flat-square&logo=server" alt="Microservices" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/System%20Integration-Seamless%20Connectivity-4ECDC4?style=flat-square&logo=network" alt="System Integration" />
+          </p>
+        </div>
       </div>
     </td>
     <td align="center" width="33%">
       <div style="border: 2px solid #FF6B6B; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #2e1a1a 100%); margin: 10px;">
         <h3>🤖 Automation & AI</h3>
-        <p>
-          <img src="https://img.shields.io/badge/n8n-Workflow%20Automation-EA4C89?style=flat-square&logo=n8n" alt="n8n" />
-          <br><br>
-          <img src="https://img.shields.io/badge/Google%20Apps%20Script-API%20Integration-4285F4?style=flat-square&logo=google" alt="Google Apps Script" />
-          <br><br>
-          <img src="https://img.shields.io/badge/Custom%20Pipelines-Data%20Processing-00D4FF?style=flat-square&logo=workflow" alt="Custom Pipelines" />
-        </p>
+        <div style="text-align: center;">
+          <p>
+            <img src="https://img.shields.io/badge/n8n-Workflow%20Automation-EA4C89?style=flat-square&logo=n8n" alt="n8n" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Google%20Apps%20Script-API%20Integration-4285F4?style=flat-square&logo=google" alt="Google Apps Script" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Custom%20Pipelines-Data%20Processing-00D4FF?style=flat-square&logo=workflow" alt="Custom Pipelines" />
+          </p>
+        </div>
       </div>
     </td>
     <td align="center" width="33%">
       <div style="border: 2px solid #4ECDC4; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #0a0a0a 0%, #1a2e1a 100%); margin: 10px;">
         <h3>💻 Full-Stack Development</h3>
-        <p>
-          <img src="https://img.shields.io/badge/Next.js-React%20Framework-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-          <img src="https://img.shields.io/badge/Laravel-PHP%20Framework-FF2D20?style=flat-square&logo=laravel" alt="Laravel" />
-          <br><br>
-          <img src="https://img.shields.io/badge/Prisma-Database%20ORM-2D3748?style=flat-square&logo=prisma" alt="Prisma" />
-          <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql" alt="PostgreSQL" />
-          <br><br>
-          <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker" alt="Docker" />
-        </p>
+        <div style="text-align: center;">
+          <p>
+            <img src="https://img.shields.io/badge/Next.js-React%20Framework-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Laravel-PHP%20Framework-FF2D20?style=flat-square&logo=laravel" alt="Laravel" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Prisma-Database%20ORM-2D3748?style=flat-square&logo=prisma" alt="Prisma" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql" alt="PostgreSQL" />
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker" alt="Docker" />
+          </p>
+        </div>
       </div>
     </td>
   </tr>
