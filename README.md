@@ -35,7 +35,6 @@ Currently leading **WiseAttitude ERP** (HR • CRM • Finance) with **AI-driven
   <tr>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/imf-project">
-        <!-- Upload preview to: primo-luminous/imf-project at /assets/preview.gif -->
         <img src="https://raw.githubusercontent.com/primo-luminous/imf-project/main/assets/preview.gif" width="100%" alt="imf-project animated preview" />
       </a>
       <br />
@@ -43,7 +42,6 @@ Currently leading **WiseAttitude ERP** (HR • CRM • Finance) with **AI-driven
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/kp-pricehub">
-        <!-- Upload preview to: primo-luminous/kp-pricehub at /assets/preview.gif -->
         <img src="https://raw.githubusercontent.com/primo-luminous/kp-pricehub/main/assets/preview.gif" width="100%" alt="kp-pricehub animated preview" />
       </a>
       <br />
@@ -51,7 +49,6 @@ Currently leading **WiseAttitude ERP** (HR • CRM • Finance) with **AI-driven
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/wiseattitude-erp">
-        <!-- Upload preview to: primo-luminous/wiseattitude-erp at /assets/preview.gif -->
         <img src="https://raw.githubusercontent.com/primo-luminous/wiseattitude-erp/main/assets/preview.gif" width="100%" alt="wiseattitude-erp animated preview" />
       </a>
       <br />
@@ -59,11 +56,6 @@ Currently leading **WiseAttitude ERP** (HR • CRM • Finance) with **AI-driven
     </td>
   </tr>
 </table>
-
-> 💡 ถ้ายังไม่มี GIF ให้แสดงผล สามารถคอมเมนต์ `<img>` ข้างบน แล้วใช้ pinned cards แทนชั่วคราว:
-> ```
-> <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=imf-project&theme=tokyonight" />
-> ```
 
 ---
 
