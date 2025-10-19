@@ -1,45 +1,58 @@
-name: Update README
+name: Update README with repository changes
 
 on:
-  schedule:
-    - cron: "0 22 * * *"  # รันทุกวัน 22:00 UTC = 05:00 Asia/Bangkok
+  repository_dispatch:
+    types: [repo_updated]
   workflow_dispatch:
-
-permissions:
-  contents: write  # ให้สิทธิ์แก้ไขไฟล์ใน repo
+    inputs:
+      repository:
+        description: 'Repository name (owner/name), slug, or URL'
+        required: true
+      version:
+        description: 'Version, tag, or release label (optional)'
+        required: false
+      url:
+        description: 'Repository URL (optional)'
+        required: false
+      updated_at:
+        description: 'ISO 8601 timestamp (optional)'
+        required: false
+      owner:
+        description: 'Explicit repository owner override (optional)'
+        required: false
 
 jobs:
   update-readme:
+    name: Sync README
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
-      - name: Install dependencies (optional)
-        if: hashFiles('scripts/requirements.txt') != ''
-        run: pip install -r scripts/requirements.txt
-
-      - name: Generate README content
-        run: python scripts/update_readme.py
-
-      - name: Commit & Push if changed
+      - name: Update README with repository metadata
+        env:
+          REPO_NAME: ${{ github.event.client_payload.repository || github.event.client_payload.repo || github.event.inputs.repository }}
+          REPO_VERSION: ${{ github.event.client_payload.version || github.event.inputs.version }}
+          REPO_URL: ${{ github.event.client_payload.url || github.event.inputs.url }}
+          REPO_UPDATED_AT: ${{ github.event.client_payload.updated_at || github.event.inputs.updated_at }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.event.client_payload.owner || github.event.inputs.owner || github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [[ -n "$(git status --porcelain README.md)" ]]; then
+          python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: auto-update README ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-            git pull --rebase
+            git commit -am "chore: update README with ${REPO_NAME:-repository update}"
             git push
           else
-            echo "No changes to commit."
-          fi
+            echo "No changes to commit"
