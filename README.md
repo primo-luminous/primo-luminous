@@ -1,84 +1,77 @@
+<!-- ✨ Animated Header -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/banner.png" alt="Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/banner.png" width="100%">
 </p>
 
-<h1 align="center">👋 Hi, I'm Mongkol Chaiwat</h1>
-<h3 align="center">Full-Stack Developer | AI Automation | ERP Architect</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=👋+Hi%2C+I'm+Mongkol+Chaiwat;💻+Full-Stack+Developer;🤖+AI+Automation+Engineer;🏗️+ERP+Architect" alt="Typing SVG" />
+</h1>
 
 ---
 
 ### 🚀 About Me
-I'm a **Full-Stack Developer** passionate about building scalable business systems and intelligent automation.  
-Currently leading the development of **WiseAttitude ERP**, an AI-powered platform integrating **HR**, **CRM**, and **Finance** for enterprise-level productivity.
+I'm a **Full-Stack Developer** passionate about scalable systems and AI-powered automation.  
+Currently building **WiseAttitude ERP**, a data-driven platform unifying HR, CRM, and Finance modules.
 
-💡 I blend **technology, automation, and design** to simplify complex workflows and empower data-driven business decisions.
-
----
-
-### 🧠 Core Competencies
-- 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices  
-- 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines  
-- 💻 **Full-Stack Development:** Next.js • Laravel • Prisma • PostgreSQL • Docker • HTML • CSS • JavaScript • PHP  
-- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization  
-- 💼 **Enterprise Applications:** `imf-project` (Finance & Budgeting) • `kp-pricehub` (Smart Price Analytics)
+💡 *I turn complex workflows into beautiful automation.*
 
 ---
 
-## 📱 IMF Project – Image Flip
-<p align="center">
+## 🧠 Core Competencies
+- 🧩 **Architecture:** Modular ERP/CRM/HR microservices  
+- 🤖 **Automation & AI:** n8n workflows, Google Apps Script, custom API pipelines  
+- 💻 **Full-Stack:** Next.js • Laravel • Prisma • PostgreSQL • Docker • HTML • CSS • JavaScript • PHP  
+- 📊 **Data & Reporting:** Real-time analytics dashboards  
+- 💼 **Key Projects:** IMF Project • KP PriceHub • WiseAttitude ERP  
+
+---
+
+## 🎬 Project Motion Gallery
+<p align="center"><i>Dynamic previews of my latest systems</i></p>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
   <a href="https://github.com/primo-luminous/imf-project">
-    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif"
-         alt="IMF Project Preview" width="80%">
+    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif" width="100%" alt="IMF Project">
   </a>
-</p>
-<p align="center">
-  <sub>📱 Android image-flip app for modern dashboard and smooth UI animation.</sub>
-</p>
-
----
-
-## 💹 KP PriceHub – Smart Pricing Engine
-<p align="center">
+  <br><sub>📱 <b>IMF Project:</b> Finance dashboard with animated image flip & modern UI motion.</sub>
+</td>
+<td align="center" width="33%">
   <a href="https://github.com/primo-luminous/kp-pricehub">
-    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/kp-price-hub.gif"
-         alt="KP PriceHub Preview" width="80%">
+    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/kp-price-hub.gif" width="100%" alt="KP PriceHub">
   </a>
-</p>
-<p align="center">
-  <sub>💹 Corporate price-hub system built with Next.js & Laravel — price comparison, ฿ symbol motion, and line-chart glow animation.</sub>
-</p>
-
----
-
-## 🧠 WiseAttitude ERP – AI Business Platform
-<p align="center">
+  <br><sub>💹 <b>KP PriceHub:</b> Smart price analytics platform – charts, ฿ glow effects, smooth transitions.</sub>
+</td>
+<td align="center" width="33%">
   <a href="https://github.com/primo-luminous/wiseattitude-erp">
-    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/erp-wiseattitude.gif"
-         alt="WiseAttitude ERP Preview" width="80%">
+    <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/erp-wiseattitude.gif" width="100%" alt="WiseAttitude ERP">
   </a>
-</p>
-<p align="center">
-  <sub>🧠 AI-powered ERP integrating HR • CRM • Finance — module transitions with “Automate • Analyze • Grow”.</sub>
-</p>
+  <br><sub>🧠 <b>WiseAttitude ERP:</b> AI-driven business suite — HR • CRM • Finance synergy.</sub>
+</td>
+</tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
-> Displays commit activity, repositories used most, and current contribution streaks to highlight consistency and technical focus.
+### 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=primo-luminous&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=primo-luminous&theme=tokyonight&hide_border=true" height="165" />
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=primo-luminous&show_icons=true&theme=tokyonight" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=primo-luminous&theme=tokyonight" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=primo-luminous&theme=react-dark&hide_border=true&area=true" width="90%">
 </p>
 
 ---
 
 ### 🌐 Connect With Me
 <p align="center">
-  <a href="https://github.com/primo-luminous"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" /></a>
-  <a href="mailto:primo.luminous@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/primo-luminous/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.youtube.com/primo.luminous"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white" /></a>
+  <a href="https://github.com/primo-luminous"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"></a>
+  <a href="mailto:primo.luminous@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/primo-luminous/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://www.youtube.com/primo.luminous"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"></a>
 </p>
 
 ---
@@ -89,4 +82,4 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 
 ---
 
-⭐️ _Crafted with passion by [Mongkol Chaiwat](https://github.com/primo-luminous)_
+⭐️ _Crafted with precision by [Mongkol Chaiwat](https://github.com/primo-luminous)_
