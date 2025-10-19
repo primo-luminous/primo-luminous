@@ -16,10 +16,12 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 ---
 
 ### 🧠 Core Competencies
-- 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices  
-- 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines  
-- 💻 **Full-Stack Development:** Next.js • Prisma • PostgreSQL • Laravel • Docker  
-- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization  
+<!-- CORE_COMPETENCIES:START -->
+- 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices
+- 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines
+- 💻 **Full-Stack Development:** Next.js • Prisma • PostgreSQL • Laravel • Docker
+- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization
+<!-- CORE_COMPETENCIES:END -->
 
 ---
 
@@ -38,7 +40,8 @@ These improvements make it easier for collaborators and clients to understand wh
 
 ### 🛠️ Tech Stack
 
-#### 💻 Languages & Frameworks  
+<!-- TECH_STACK:START -->
+#### 💻 Languages & Frameworks
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white)
@@ -47,11 +50,12 @@ These improvements make it easier for collaborators and clients to understand wh
 ![n8n](https://img.shields.io/badge/-n8n-EA4C89?logo=n8n&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
-#### ⚙️ Tools & Platforms  
+#### ⚙️ Tools & Platforms
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visualstudiocode&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?logo=googlecloud&logoColor=white)
 ![Automation](https://img.shields.io/badge/-n8n%20Automation-FE7A16?logo=n8n&logoColor=white)
+<!-- TECH_STACK:END -->
 
 ---
 
