@@ -23,6 +23,19 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 
 ---
 
+## 🗂️ Repository Development Progress
+
+This repository has been evolving to better showcase ongoing work and highlight the systems I build. Recent updates include:
+
+- **Refined personal introduction** that clearly communicates my role in AI-driven ERP development and automation initiatives.
+- **Expanded competency and tech stack sections** to outline the frameworks, tools, and platforms I use across full-stack projects.
+- **Curated featured project gallery** with GitHub stat cards that surface the breadth of my ERP, automation, and AI solutions.
+- **Automated “Latest Repository Updates” feed** powered by GitHub Actions to keep release timelines and activity transparent.
+
+These improvements make it easier for collaborators and clients to understand what has been developed so far and where the roadmap is heading.
+
+---
+
 ### 🛠️ Tech Stack
 
 #### 💻 Languages & Frameworks  
