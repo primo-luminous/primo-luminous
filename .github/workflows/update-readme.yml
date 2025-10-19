@@ -1,10 +1,10 @@
 name: Update README with repository changes
-
 on:
-  repository_dispatch:
+repository_dispatch:
     types: [repo_updated]
   workflow_dispatch:
-    inputs:
+  
+  inputs:
       repository:
         description: 'Repository name (owner/name), slug, or URL'
         required: true
@@ -20,21 +20,20 @@ on:
       owner:
         description: 'Explicit repository owner override (optional)'
         required: false
-
-jobs:
+        
+        jobs:
   update-readme:
     name: Sync README
     runs-on: ubuntu-latest
-    permissions:
+     permissions:
       contents: write
     steps:
-      - name: Checkout repository
+    name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+        
+        python-version: '3.x'
 
       - name: Update README with repository metadata
         env:
@@ -46,13 +45,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_readme.py
-
-      - name: Commit and push changes
+          
+          name: Commit and push changes
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
+        if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -am "chore: update README with ${REPO_NAME:-repository update}"
+             git commit -am "chore: update README with ${REPO_NAME:-repository update}"
             git push
           else
-            echo "No changes to commit"
+          echo "No changes to commit"
+        
