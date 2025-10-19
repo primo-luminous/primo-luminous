@@ -64,20 +64,27 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=imf-project&theme=tokyonight" />
       </a>
       <br />
-      <sub>📱 Android mobile finance management app designed for KPI tracking, budget analysis, and smart business insights.</sub>
+      <sub>📱 Android mobile finance management app for KPI tracking, budget analysis, and smart business insights.</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/primo-luminous/kp-pricehub">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=kp-pricehub&theme=tokyonight" />
+      </a>
+      <br />
+      <sub>💹 Corporate price-hub system built with Next.js & Laravel for automated price analytics and market comparison.</sub>
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/wiseattitude-erp">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=wiseattitude-erp&theme=tokyonight" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/erp-react-laravel">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=erp-react-laravel&theme=tokyonight" />
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/rentgo-app">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=rentgo-app&theme=tokyonight" />
@@ -88,17 +95,13 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=podcast-creator-ai&theme=tokyonight" />
       </a>
     </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/primo-luminous/dashboard-automation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=dashboard-automation&theme=tokyonight" />
-      </a>
-    </td>
   </tr>
 </table>
 
 <p align="center">
   <i>✨ Each repository reflects a part of my vision — intelligent systems for human productivity.</i>
 </p>
+
 
 ---
 
