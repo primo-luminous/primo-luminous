@@ -188,21 +188,19 @@ def find_marker_index(readme_lines: List[str], marker: str) -> int:
     raise ValueError(f"Marker {marker} not found in README")
 
 
-def main() -> None:
-    readme_path = Path(__file__).resolve().parents[1] / "README.md"
-    if not readme_path.exists():
-        raise FileNotFoundError("README.md not found")
-
-    repo_name = os.getenv("REPO_NAME")
-    if not repo_name:
-        raise ValueError("REPO_NAME environment variable is required")
-
-    owner = os.getenv("GITHUB_REPOSITORY_OWNER")
+def update_entries(
+    entries: List[Dict[str, str]],
+    repo_name: str,
+    owner: str | None,
+    provided_version: str | None,
+    provided_updated_at: str | None,
+    provided_url: str | None,
+    token: str | None,
+) -> List[Dict[str, str]]:
     display, slug, default_url = normalise_repo(repo_name, owner)
 
-    provided_version = os.getenv("REPO_VERSION", "").strip()
-    provided_updated_at = os.getenv("REPO_UPDATED_AT", "").strip()
-    token = os.getenv("GITHUB_TOKEN", "").strip() or None
+    provided_version = (provided_version or "").strip()
+    provided_updated_at = (provided_updated_at or "").strip()
 
     fetched_version: str | None = None
     fetched_updated_at: str | None = None
@@ -219,7 +217,81 @@ def main() -> None:
     updated_source = provided_updated_at or fetched_updated_at
     updated_iso = format_timestamp(updated_source)
 
-    url = os.getenv("REPO_URL", "").strip() or default_url
+    url = (provided_url or "").strip() or default_url
+
+    new_entry = {
+        "display": display,
+        "version": version,
+        "updated": updated_iso,
+        "url": url,
+        "key": url,
+    }
+
+    filtered_entries = [
+        entry for entry in entries if entry["key"].rstrip("/") != new_entry["key"].rstrip("/")
+    ]
+    return [new_entry] + filtered_entries
+
+
+def load_repositories_from_env() -> List[Dict[str, str]] | None:
+    raw_entries = os.getenv("REPO_ENTRIES", "").strip()
+    if not raw_entries:
+        return None
+
+    try:
+        parsed = json.loads(raw_entries)
+    except json.JSONDecodeError as exc:  # pragma: no cover - defensive
+        raise ValueError("REPO_ENTRIES must be valid JSON") from exc
+
+    if not isinstance(parsed, list):
+        raise ValueError("REPO_ENTRIES must be a JSON array of repository definitions")
+
+    entries: List[Dict[str, str]] = []
+    for index, item in enumerate(parsed):
+        if not isinstance(item, dict):
+            raise ValueError(
+                f"REPO_ENTRIES item at index {index} must be an object with at least a 'name' field"
+            )
+        if not item.get("name"):
+            raise ValueError(
+                f"REPO_ENTRIES item at index {index} is missing the required 'name' field"
+            )
+        entries.append(
+            {
+                "name": str(item["name"]),
+                "owner": item.get("owner"),
+                "version": item.get("version"),
+                "updated_at": item.get("updated_at"),
+                "url": item.get("url"),
+            }
+        )
+
+    return entries
+
+
+def main() -> None:
+    readme_path = Path(__file__).resolve().parents[1] / "README.md"
+    if not readme_path.exists():
+        raise FileNotFoundError("README.md not found")
+
+    token = os.getenv("GITHUB_TOKEN", "").strip() or None
+
+    repo_entries = load_repositories_from_env()
+
+    if repo_entries is None:
+        repo_name = os.getenv("REPO_NAME")
+        if not repo_name:
+            raise ValueError("REPO_NAME environment variable is required when REPO_ENTRIES is not provided")
+
+        repo_entries = [
+            {
+                "name": repo_name,
+                "owner": os.getenv("GITHUB_REPOSITORY_OWNER"),
+                "version": os.getenv("REPO_VERSION"),
+                "updated_at": os.getenv("REPO_UPDATED_AT"),
+                "url": os.getenv("REPO_URL"),
+            }
+        ]
 
     with readme_path.open("r", encoding="utf-8") as fh:
         readme_lines = fh.readlines()
@@ -232,19 +304,20 @@ def main() -> None:
     table_lines = readme_lines[start_index + 1 : end_index]
     entries = parse_table(table_lines)
 
-    new_key = url or f"https://github.com/{slug}"
-    new_entry = {
-        "display": display,
-        "version": version,
-        "updated": updated_iso,
-        "url": new_key,
-        "key": new_key,
-    }
+    # Process repositories in reverse so the first item in the payload stays
+    # at the top of the rendered table.
+    for repo in reversed(repo_entries):
+        entries = update_entries(
+            entries,
+            repo_name=repo["name"],
+            owner=repo.get("owner") or os.getenv("GITHUB_REPOSITORY_OWNER"),
+            provided_version=repo.get("version"),
+            provided_updated_at=repo.get("updated_at"),
+            provided_url=repo.get("url"),
+            token=token,
+        )
 
-    filtered_entries = [entry for entry in entries if entry["key"].rstrip("/") != new_entry["key"].rstrip("/")]
-    entries_to_write = [new_entry] + filtered_entries
-
-    new_table = build_table(entries_to_write)
+    new_table = build_table(entries)
 
     updated_section = [line + "\n" for line in new_table]
     new_readme_lines = readme_lines[: start_index + 1] + updated_section + readme_lines[end_index:]
