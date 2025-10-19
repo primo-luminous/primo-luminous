@@ -32,6 +32,7 @@ jobs:
       REPO_URL: ${{ github.event.client_payload.url || github.event.inputs.url }}
       REPO_UPDATED_AT: ${{ github.event.client_payload.updated_at || github.event.inputs.updated_at }}
       GITHUB_REPOSITORY_OWNER: ${{ github.event.client_payload.owner || github.event.inputs.owner || github.repository_owner }}
+      REPO_ENTRIES: ${{ github.event.client_payload.repositories || github.event.inputs.repositories }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repository
