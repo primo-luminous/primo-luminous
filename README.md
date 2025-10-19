@@ -84,10 +84,22 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 
 ---
 
+## 🆕 Latest Repository Updates
+
+> _This section is automatically updated via GitHub Actions._
+
+<!-- PROJECT_UPDATES:START -->
+| Project | Version | Updated |
+| --- | --- | --- |
+<!-- PROJECT_UPDATES:END -->
+
+---
+
 <p align="center">
   <i>“Innovation happens when creativity meets execution.”</i>
 </p>
 
 ---
+
 
 ⭐️ _Crafted with passion by [Mongkol Chaiwat](https://github.com/primo-luminous)_
