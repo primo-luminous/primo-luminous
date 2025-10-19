@@ -91,6 +91,7 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 <!-- PROJECT_UPDATES:START -->
 | Project | Version | Updated |
 | --- | --- | --- |
+| [wiseattitude](https://github.com/gendevgroup/wiseattitude) | unreleased | 2025-10-19 03:27 UTC |
 | [erp-react-laravel](https://github.com/primo-luminous/erp-react-laravel) | v1.2.0 | 2025-10-17 15:12 UTC |
 | [kp-pricehub](https://github.com/primo-luminous/kp-pricehub) | unreleased | 2025-10-19 03:13 UTC |
 <!-- PROJECT_UPDATES:END -->
