@@ -1,6 +1,6 @@
 ## 📱 IMF Project – Finance Dashboard
 <p align="center">
-  <img src="https://raw.githubusercontent.com/primo-luminous/imf-project/main/assets/preview.gif" 
+  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif" 
        alt="IMF Project Preview" width="100%">
 </p>
 <p align="center">
@@ -11,7 +11,7 @@
   <tr>
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/imf-project">
-        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/imf-project.gif"
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif"
              alt="IMF Project Preview" width="100%">
       </a>
       <br />
@@ -20,7 +20,7 @@
 
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/kp-pricehub">
-        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/kp-price-hub.gif"
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/kp-price-hub.gif"
              alt="KP PriceHub Preview" width="100%">
       </a>
       <br />
@@ -29,7 +29,7 @@
 
     <td align="center" width="33%">
       <a href="https://github.com/primo-luminous/wiseattitude-erp">
-        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/erp-wiseattitude.gif"
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/erp-wiseattitude.gif"
              alt="WiseAttitude ERP Preview" width="100%">
       </a>
       <br />
@@ -46,7 +46,7 @@
 
 ## 💹 KP PriceHub – Smart Pricing Engine
 <p align="center">
-  <img src="https://raw.githubusercontent.com/primo-luminous/kp-pricehub/main/assets/preview.gif" 
+  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/kp-price-hub.gif" 
        alt="KP PriceHub Preview" width="100%">
 </p>
 <p align="center">
@@ -57,7 +57,7 @@
 
 ## 🧠 WiseAttitude ERP – AI Business Platform
 <p align="center">
-  <img src="https://raw.githubusercontent.com/primo-luminous/wiseattitude-erp/main/assets/preview.gif" 
+  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/erp-wiseattitude.gif" 
        alt="WiseAttitude ERP Preview" width="100%">
 </p>
 <p align="center">
