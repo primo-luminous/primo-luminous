@@ -4,7 +4,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=900&amp;color=000000&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Hi%2C+I'm+Mongkol+Chaiwat;Full-Stack+Developer;AI+Automation+Engineer;ERP+Architect"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=900&amp;color=00FFFF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Hi%2C+I'm+Mongkol+Chaiwat;Full-Stack+Developer;AI+Automation+Engineer;ERP+Architect"
     alt="Typing intro for Mongkol Chaiwat" />
 </p>
 
@@ -40,7 +40,7 @@ Currently building **WiseAttitude ERP**, a data-driven platform unifying HR, CRM
   <a href="https://github.com/primo-luminous/imf-project">
     <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/imf-project.gif" width="100%" alt="IMF Project">
   </a>
-  <br><sub>📱 <b>IMF Project:</b> Finance dashboard with animated image flip & modern UI motion.</sub>
+  <br><sub>📱 <b>IMF Project:</b>image flip & modern UI motion.</sub>
 </td>
 <td align="center" width="33%">
   <a href="https://github.com/primo-luminous/kp-pricehub">
