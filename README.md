@@ -49,14 +49,32 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/primo-luminous/wiseattitude-erp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=wiseattitude-erp&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/erp-react-laravel"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=erp-react-laravel&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/rentgo-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=rentgo-app&theme=tokyonight" /></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/primo-luminous/podcast-creator-ai"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=podcast-creator-ai&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/dashboard-automation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=dashboard-automation&theme=tokyonight" /></a></td>
-    <td><a href="https://github.com/primo-luminous/primo-luminous"><img src="https://github-readme-stats.vercel.app/api/pin/?username=primo-luminous&repo=primo-luminous&theme=tokyonight" /></a></td>
+    <td align="center" width="33%">
+      <a href="https://github.com/primo-luminous/imf-project">
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/imf-project.gif"
+             alt="IMF Project Preview" width="100%">
+      </a>
+      <br />
+      <sub>📱 <b>IMF Project:</b> Android mobile finance management app for KPI tracking, budget analysis, and smart insights.</sub>
+    </td>
+
+    <td align="center" width="33%">
+      <a href="https://github.com/primo-luminous/kp-pricehub">
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/kp-price-hub.gif"
+             alt="KP PriceHub Preview" width="100%">
+      </a>
+      <br />
+      <sub>💹 <b>KP PriceHub:</b> Corporate price-hub system built with Next.js & Laravel for automated price analytics and market comparison.</sub>
+    </td>
+
+    <td align="center" width="33%">
+      <a href="https://github.com/primo-luminous/wiseattitude-erp">
+        <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/erp-wiseattitude.gif"
+             alt="WiseAttitude ERP Preview" width="100%">
+      </a>
+      <br />
+      <sub>🧠 <b>WiseAttitude ERP:</b> AI-powered business platform integrating HR, CRM, and finance modules for enterprise productivity.</sub>
+    </td>
   </tr>
 </table>
 
