@@ -1,44 +1,30 @@
-## 🎞️ Project Previews
-
+## 📱 IMF Project – Finance Dashboard
 <p align="center">
-  <i>Animated previews — visible on mobile & desktop.</i>
+  <img src="https://raw.githubusercontent.com/primo-luminous/imf-project/main/assets/preview.gif" 
+       alt="IMF Project Preview" width="100%">
+</p>
+<p align="center">
+  <sub>Modern finance dashboard • KPI analytics • Budget insights.</sub>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/primo-luminous/imf-project">
-        <img src="https://raw.githubusercontent.com/primo-luminous/imf-project/main/assets/preview.gif" 
-             alt="imf-project preview" width="100%"/>
-      </a>
-      <br/>
-      <sub>📱 IMF Finance Dashboard – Modern Budget UI</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/primo-luminous/kp-pricehub">
-        <img src="https://raw.githubusercontent.com/primo-luminous/kp-pricehub/main/assets/preview.gif" 
-             alt="kp-pricehub preview" width="100%"/>
-      </a>
-      <br/>
-      <sub>💹 KP Price Hub – Smart Pricing Engine</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/primo-luminous/wiseattitude-erp">
-        <img src="https://raw.githubusercontent.com/primo-luminous/wiseattitude-erp/main/assets/preview.gif" 
-             alt="wiseattitude-erp preview" width="100%"/>
-      </a>
-      <br/>
-      <sub>🧠 WiseAttitude ERP – AI Business Platform</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/primo-luminous/rentgo-app">
-        <img src="https://raw.githubusercontent.com/primo-luminous/rentgo-app/main/assets/preview.gif" 
-             alt="rentgo-app preview" width="100%"/>
-      </a>
-      <br/>
-      <sub>🚗 RentGo App – Car Rental Management System</sub>
-    </td>
-  </tr>
-</table>
+---
+
+## 💹 KP PriceHub – Smart Pricing Engine
+<p align="center">
+  <img src="https://raw.githubusercontent.com/primo-luminous/kp-pricehub/main/assets/preview.gif" 
+       alt="KP PriceHub Preview" width="100%">
+</p>
+<p align="center">
+  <sub>Smart price comparison • Symbol ฿ animation • Line-chart glow.</sub>
+</p>
+
+---
+
+## 🧠 WiseAttitude ERP – AI Business Platform
+<p align="center">
+  <img src="https://raw.githubusercontent.com/primo-luminous/wiseattitude-erp/main/assets/preview.gif" 
+       alt="WiseAttitude ERP Preview" width="100%">
+</p>
+<p align="center">
+  <sub>HR • CRM • Finance — module transitions with “Automate • Analyze • Grow”.</sub>
+</p>
