@@ -15,23 +15,26 @@
 ---
 
 ### 🚀 About Me
+
 I'm a **Full-Stack Developer** passionate about scalable systems and AI-powered automation.  
 Currently building **WiseAttitude ERP**, a data-driven platform unifying HR, CRM, and Finance modules.
 
-💡 *I turn complex workflows into beautiful automation.*
+💡 _I turn complex workflows into beautiful automation._
 
 ---
 
 ## 🧠 Core Competencies
-- 🧩 **Architecture:** Modular ERP/CRM/HR microservices  
-- 🤖 **Automation & AI:** n8n workflows, Google Apps Script, custom API pipelines  
-- 💻 **Full-Stack:** Next.js • Laravel • Prisma • PostgreSQL • Docker • HTML • CSS • JavaScript • PHP  
-- 📊 **Data & Reporting:** Real-time analytics dashboards  
-- 💼 **Key Projects:** IMF Project • KP PriceHub • WiseAttitude ERP  
+
+- 🧩 **Architecture:** Modular ERP/CRM/HR microservices
+- 🤖 **Automation & AI:** n8n workflows, Google Apps Script, custom API pipelines
+- 💻 **Full-Stack:** Next.js • Laravel • Prisma • PostgreSQL • Docker • HTML • CSS • JavaScript • PHP
+- 📊 **Data & Reporting:** Real-time analytics dashboards
+- 💼 **Key Projects:** IMF Project • KP PriceHub • WiseAttitude ERP
 
 ---
 
 ## 🎬 Project Motion Gallery
+
 <p align="center"><i>Dynamic previews of my latest systems</i></p>
 
 <table align="center">
@@ -60,6 +63,11 @@ Currently building **WiseAttitude ERP**, a data-driven platform unifying HR, CRM
 ---
 
 ### 📈 GitHub Stats
+
+---
+
+## 📊 GitHub Performance Dashboard
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=primo-luminous&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=primo-luminous&theme=tokyonight&hide_border=true" height="165" />
@@ -69,9 +77,16 @@ Currently building **WiseAttitude ERP**, a data-driven platform unifying HR, CRM
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=primo-luminous&theme=react-dark&hide_border=true&area=true" width="90%">
 </p>
 
+<p align="center">
+  <sub>📈 Live statistics tracking commits, contributions, and consistency streaks across all projects.</sub>
+</p>
+
+---
+
 ---
 
 ### 🌐 Connect With Me
+
 <p align="center">
   <a href="https://github.com/primo-luminous"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"></a>
   <a href="mailto:primo.luminous@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"></a>
