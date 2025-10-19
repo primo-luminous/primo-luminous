@@ -11,6 +11,10 @@ from urllib.request import Request, urlopen
 
 MARKER_START = "<!-- PROJECT_UPDATES:START -->"
 MARKER_END = "<!-- PROJECT_UPDATES:END -->"
+CORE_MARKER_START = "<!-- CORE_COMPETENCIES:START -->"
+CORE_MARKER_END = "<!-- CORE_COMPETENCIES:END -->"
+TECH_MARKER_START = "<!-- TECH_STACK:START -->"
+TECH_MARKER_END = "<!-- TECH_STACK:END -->"
 TABLE_HEADER = "| Project | Version | Updated |"
 TABLE_DIVIDER = "| --- | --- | --- |"
 
@@ -188,6 +192,100 @@ def find_marker_index(readme_lines: List[str], marker: str) -> int:
     raise ValueError(f"Marker {marker} not found in README")
 
 
+def replace_section(
+    readme_lines: List[str],
+    marker_start: str,
+    marker_end: str,
+    new_lines: List[str],
+) -> List[str]:
+    start_index = find_marker_index(readme_lines, marker_start)
+    end_index = find_marker_index(readme_lines, marker_end)
+    formatted_lines = [f"{line}\n" for line in new_lines]
+    return readme_lines[: start_index + 1] + formatted_lines + readme_lines[end_index:]
+
+
+def load_static_sections(config_path: Path) -> Dict[str, List[Dict[str, str]]]:
+    if not config_path.exists():
+        return {}
+
+    with config_path.open("r", encoding="utf-8") as fh:
+        try:
+            payload = json.load(fh)
+        except json.JSONDecodeError as exc:  # pragma: no cover - defensive
+            raise ValueError("Failed to parse README static content JSON") from exc
+
+    if not isinstance(payload, dict):
+        raise ValueError("README static content must be a JSON object")
+
+    return payload
+
+
+def build_core_competency_lines(items: List[Dict[str, str]]) -> List[str]:
+    lines: List[str] = []
+    for item in items:
+        title = item.get("title")
+        description = item.get("description")
+        if not title or not description:
+            continue
+        icon = item.get("icon", "-")
+        lines.append(f"- {icon} **{title}:** {description}")
+    return lines
+
+
+def build_tech_stack_lines(categories: List[Dict[str, object]]) -> List[str]:
+    lines: List[str] = []
+    for index, category in enumerate(categories):
+        heading = str(category.get("heading") or category.get("title") or "").strip()
+        if not heading:
+            continue
+        if not heading.startswith("####"):
+            heading = f"#### {heading}"
+        if lines:
+            lines.append("")
+        lines.append(heading)
+        badges = category.get("badges")
+        if isinstance(badges, list):
+            for badge in badges:
+                badge_text = str(badge).strip()
+                if badge_text:
+                    lines.append(badge_text)
+    return lines
+
+
+def sync_static_sections(readme_lines: List[str], config: Dict[str, object]) -> List[str]:
+    updated_lines = readme_lines
+
+    core_items = config.get("core_competencies")
+    if isinstance(core_items, list):
+        core_lines = build_core_competency_lines(core_items)
+        if core_lines:
+            try:
+                updated_lines = replace_section(
+                    updated_lines,
+                    CORE_MARKER_START,
+                    CORE_MARKER_END,
+                    core_lines,
+                )
+            except ValueError:
+                pass
+
+    tech_categories = config.get("tech_stack")
+    if isinstance(tech_categories, list):
+        tech_lines = build_tech_stack_lines(tech_categories)
+        if tech_lines:
+            try:
+                updated_lines = replace_section(
+                    updated_lines,
+                    TECH_MARKER_START,
+                    TECH_MARKER_END,
+                    tech_lines,
+                )
+            except ValueError:
+                pass
+
+    return updated_lines
+
+
 def update_entries(
     entries: List[Dict[str, str]],
     repo_name: str,
@@ -274,6 +372,9 @@ def main() -> None:
     if not readme_path.exists():
         raise FileNotFoundError("README.md not found")
 
+    static_content_path = Path(__file__).resolve().with_name("readme_content.json")
+    static_content = load_static_sections(static_content_path)
+
     token = os.getenv("GITHUB_TOKEN", "").strip() or None
 
     repo_entries = load_repositories_from_env()
@@ -296,6 +397,9 @@ def main() -> None:
     with readme_path.open("r", encoding="utf-8") as fh:
         readme_lines = fh.readlines()
 
+    original_readme_lines = list(readme_lines)
+
+    readme_lines = sync_static_sections(readme_lines, static_content)
     readme_lines = ensure_markers(readme_lines)
 
     start_index = find_marker_index(readme_lines, MARKER_START)
@@ -322,7 +426,7 @@ def main() -> None:
     updated_section = [line + "\n" for line in new_table]
     new_readme_lines = readme_lines[: start_index + 1] + updated_section + readme_lines[end_index:]
 
-    if new_readme_lines != readme_lines:
+    if new_readme_lines != original_readme_lines:
         with readme_path.open("w", encoding="utf-8") as fh:
             fh.writelines(new_readme_lines)
 

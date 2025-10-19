@@ -1,0 +1,47 @@
+{
+  "core_competencies": [
+    {
+      "icon": "🧩",
+      "title": "System Design & Architecture",
+      "description": "Modular ERP/CRM/HR systems with scalable microservices"
+    },
+    {
+      "icon": "🤖",
+      "title": "Automation & AI Integration",
+      "description": "n8n workflows, Google Apps Script, data pipelines"
+    },
+    {
+      "icon": "💻",
+      "title": "Full-Stack Development",
+      "description": "Next.js • Prisma • PostgreSQL • Laravel • Docker"
+    },
+    {
+      "icon": "📊",
+      "title": "Data Analytics & Reporting",
+      "description": "Real-time dashboards, BI automation, and insight visualization"
+    }
+  ],
+  "tech_stack": [
+    {
+      "heading": "#### 💻 Languages & Frameworks",
+      "badges": [
+        "![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)",
+        "![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white)",
+        "![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white)",
+        "![Prisma](https://img.shields.io/badge/-Prisma-2D3748?logo=prisma&logoColor=white)",
+        "![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white)",
+        "![n8n](https://img.shields.io/badge/-n8n-EA4C89?logo=n8n&logoColor=white)",
+        "![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)"
+      ]
+    },
+    {
+      "heading": "#### ⚙️ Tools & Platforms",
+      "badges": [
+        "![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visualstudiocode&logoColor=white)",
+        "![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)",
+        "![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?logo=googlecloud&logoColor=white)",
+        "![Automation](https://img.shields.io/badge/-n8n%20Automation-FE7A16?logo=n8n&logoColor=white)"
+      ]
+    }
+  ]
+}
