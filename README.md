@@ -116,11 +116,6 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
             <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
             <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
           </p>
-          <!-- Roles -->
-          <p>
-            <img src="https://img.shields.io/badge/Frontend-00D4FF?style=flat-square" alt="Frontend" />
-            <img src="https://img.shields.io/badge/Backend-FF6B6B?style=flat-square" alt="Backend" />
-          </p>
           <!-- Databases -->
           <p>
             <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -212,8 +207,8 @@ I'm a **passionate Full-Stack Developer** with a deep love for creating scalable
         <p><strong>AI Business Suite</strong></p>
         <p>Comprehensive ERP platform integrating HR, CRM, and Finance modules with AI-driven insights and automation.</p>
         <div>
-          <img src="https://img.shields.io/badge/Frontend-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Frontend Next.js" />
-          <img src="https://img.shields.io/badge/Backend-API%20%26%20Services-FF6B6B?style=flat-square" alt="Backend" />
+          <img src="https://img.shields.io/badge/Next.js-Frontend-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Next.js-Backend-000000?style=flat-square&logo=nextdotjs" alt="Next.js" />
           <img src="https://img.shields.io/badge/ERP-Business%20Suite-4ECDC4?style=flat-square&logo=building" alt="ERP" />
         </div>
       </div>
