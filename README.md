@@ -114,6 +114,7 @@ need to publish custom metadata.
 <!-- PROJECT_UPDATES:START -->
 | Project | Version | Updated |
 | --- | --- | --- |
+| [imf-project](https://github.com/primo-luminous/imf-project) | unreleased | 2025-10-19 11:02 UTC |
 | [scm-project](https://github.com/gendevgroup/scm-project) | unreleased | 2025-10-19 08:20 UTC |
 | [beauty-skin](https://github.com/gendevgroup/beauty-skin) | unreleased | 2025-10-19 08:19 UTC |
 | [erms-app](https://github.com/gendevgroup/erms-app) | unreleased | 2025-10-19 08:18 UTC |
