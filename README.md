@@ -91,6 +91,7 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 <!-- PROJECT_UPDATES:START -->
 | Project | Version | Updated |
 | --- | --- | --- |
+| [scm-project](https://github.com/gendevgroup/scm-project) | unreleased | 2025-10-19 08:20 UTC |
 | [beauty-skin](https://github.com/gendevgroup/beauty-skin) | unreleased | 2025-10-19 08:19 UTC |
 | [erms-app](https://github.com/gendevgroup/erms-app) | unreleased | 2025-10-19 08:18 UTC |
 | [go-innovation](https://github.com/gendevgroup/go-innovation) | unreleased | 2025-10-19 08:17 UTC |
