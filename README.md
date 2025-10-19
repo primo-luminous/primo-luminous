@@ -20,8 +20,10 @@ Currently leading the development of **WiseAttitude ERP**, an AI-powered platfor
 - 🧩 **System Design & Architecture:** Modular ERP/CRM/HR systems with scalable microservices  
 - 🤖 **Automation & AI Integration:** n8n workflows, Google Apps Script, data pipelines  
 - 💻 **Full-Stack Development:** Next.js • Prisma • PostgreSQL • Laravel • Docker • HTML • CSS • JavaScript • PHP  
-- 📊 **Data Analytics & Reporting:** Real-time dashboards, BI automation, and insight visualization  
+- 💼 **imf-project (Finance Management App):** Android + Flutter + Dart
+- 🏢 **kp-pricehub (Corporate Pricing System):** HTML + CSS + Javascript + PHP Version 7 price comparison market analytics  
 <!-- CORE_COMPETENCIES:END -->
+
 
 ---
 
