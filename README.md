@@ -1,12 +1,11 @@
-<!-- ✨ Animated Header -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/banner.png" width="100%">
+  <img src="https://raw.githubusercontent.com/primo-luminous/primo-luminous/main/banner.png" width="100%" />
 </p>
 
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=👋+Hi%2C+I'm+Mongkol+Chaiwat;💻+Full-Stack+Developer;🤖+AI+Automation+Engineer;🏗️+ERP+Architect" 
-    alt="Typing SVG Animation of Mongkol Chaiwat" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=900&amp;color=00FFFF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Hi%2C+I'm+Mongkol+Chaiwat;Full-Stack+Developer;AI+Automation+Engineer;ERP+Architect"
+    alt="Typing intro for Mongkol Chaiwat" />
 </p>
 
 <h3 align="center">
